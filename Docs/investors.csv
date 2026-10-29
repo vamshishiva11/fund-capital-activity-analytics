@@ -1,0 +1,41 @@
+investor_id,investor_name,investor_type,country
+I001,Northern Retirement System,Public Pension,UAE
+I002,Pacific Life Insurance Co.,Insurance,Germany
+I003,Atlantic Foundation,Foundation,Netherlands
+I004,Granite Retirement System,Public Pension,Australia
+I005,Cedar Pension Fund,Corporate Pension,United States
+I006,Summit Investment Authority,Sovereign Wealth,Switzerland
+I007,Lakeshore Life Insurance Co.,Insurance,UAE
+I008,Redwood Life Insurance Co.,Insurance,UAE
+I009,Harbor Investment Authority,Sovereign Wealth,United States
+I010,Silverline Family Office,Family Office,Germany
+I011,Bluewater Investment Authority,Sovereign Wealth,United Kingdom
+I012,Ironwood Pension Fund,Corporate Pension,Switzerland
+I013,Crescent Family Office,Family Office,Singapore
+I014,Evergreen Foundation,Foundation,UAE
+I015,Highland Investment Authority,Sovereign Wealth,Germany
+I016,Oakmont Foundation,Foundation,United States
+I017,Riverstone Retirement System,Public Pension,Japan
+I018,Sterling Capital Partners,Fund of Funds,United States
+I019,Westbrook Family Office,Family Office,UAE
+I020,Aspen University Endowment,Endowment,Singapore
+I021,Northern Pension Fund II,Corporate Pension,UAE
+I022,Pacific Life Insurance Co. II,Insurance,United Kingdom
+I023,Atlantic Retirement System II,Public Pension,Switzerland
+I024,Granite Foundation II,Foundation,Netherlands
+I025,Cedar Life Insurance Co. II,Insurance,UAE
+I026,Summit Family Office II,Family Office,United States
+I027,Lakeshore University Endowment II,Endowment,Germany
+I028,Redwood Foundation II,Foundation,United States
+I029,Harbor Investment Authority II,Sovereign Wealth,United States
+I030,Silverline Life Insurance Co. II,Insurance,Australia
+I031,Bluewater Capital Partners II,Fund of Funds,Australia
+I032,Ironwood University Endowment II,Endowment,Switzerland
+I033,Crescent Foundation II,Foundation,Canada
+I034,Evergreen Capital Partners II,Fund of Funds,United Kingdom
+I035,Highland Retirement System II,Public Pension,Germany
+I036,Oakmont Family Office II,Family Office,United States
+I037,Riverstone Foundation II,Foundation,United States
+I038,Sterling Life Insurance Co. II,Insurance,Germany
+I039,Westbrook University Endowment II,Endowment,United States
+I040,Aspen Investment Authority II,Sovereign Wealth,Australia
