@@ -1,0 +1,19 @@
+# SQL Server 2022 in Docker - runs on any PC/Mac (Apple Silicon uses amd64 emulation).
+# Start:  ./sqlserver/run.sh      Connect: localhost,1433  user sa  password in .env / below
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    platform: linux/amd64
+    container_name: tpg_sqlserver
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "${MSSQL_SA_PASSWORD:-TpgAssess#2025}"
+    ports:
+      - "1433:1433"
+    volumes:
+      - ./sqlserver:/scripts:ro
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -C -S localhost -U sa -P \"$$MSSQL_SA_PASSWORD\" -Q 'SELECT 1' || exit 1"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
